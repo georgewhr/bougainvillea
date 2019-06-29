@@ -3,6 +3,32 @@
     "country":"US",
     "geolocation":"37.280290,-121.855175",
     "time":"1561709592",
+    "sensor_info":[
+                    {
+                        "sensor_id":100,
+                        "plant_id":10000,
+                        "battery":98,
+                        "temp":55,
+                        "humidity":1,
+                        "dew_point":2
+                    },
+                    {
+                        "sensor_id":101,
+                        "plant_id":10001,
+                        "battery":20,
+                        "temp":55,
+                        "humidity":1,
+                        "dew_point":2
+                    },
+                    {
+                        "sensor_id":101,
+                        "plant_id":"",
+                        "battery":50,
+                        "temp":43,
+                        "humidity":1,
+                        "dew_point":2
+                    }
+                  ],
     "garden_info":{
         "sunshine":50,
         "plants":[

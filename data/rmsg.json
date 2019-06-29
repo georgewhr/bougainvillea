@@ -1,0 +1,32 @@
+{
+    "customer_id":100,
+    "country":"US",
+    "geolocation":"37.280290,-121.855175",
+    "time":"1561709592",
+    "garden_info":{
+        "sunshine":50,
+        "plants":[
+                    {
+                        "plant_id":10000,
+                        "plant_name":"hydrangea",
+                        "sample_time":"1561709592",
+                        "sun_level":30,
+                        "ph":"6.6",
+                        "moisture":70
+                    },
+                    {
+                        "plant_id":10001,
+                        "plant_name":"bougainvillea",
+                        "sample_time":"1561709592",
+                        "sun_level":80,
+                        "ph":"8.2",
+                        "moisture":20
+                    }
+                 ],
+        "local_weather":{
+            "temp":76,
+            "humidity":44,
+            "sun_level":"full"
+        }
+    }
+}

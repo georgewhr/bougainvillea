@@ -1,7 +1,7 @@
 import boto3
 session = boto3.Session(profile_name='george')
-# dynamodb = session.resource('dynamodb', region_name='us-west-2', endpoint_url="http://localhost:8000")
-dynamodb = session.resource('dynamodb', region_name='us-west-2')
+dynamodb = session.resource('dynamodb', region_name='us-west-2', endpoint_url="http://localhost:8000")
+# dynamodb = session.resource('dynamodb', region_name='us-west-2')
 table = dynamodb.create_table(
     TableName='Plants',
     KeySchema=[

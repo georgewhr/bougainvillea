@@ -38,7 +38,7 @@
                         "sample_time":"1561709592",
                         "sun_level":30,
                         "ph":"6.6",
-                        "moisture":70
+                        "moisture":15
                     },
                     {
                         "plant_id":10001,
@@ -48,11 +48,11 @@
                         "ph":"8.2",
                         "moisture":20
                     }
-                 ],
-        "local_weather":{
+                 ]
+    },
+    "local_weather":{
             "temp":76,
             "humidity":44,
             "sun_level":"full"
-        }
     }
 }
